@@ -31,6 +31,32 @@
         padding-top: 3rem;
       }
     </style>
+    <style>
+      body {
+        padding-top: 76px; /* Account for fixed navbar height */
+      }
+      
+      .navbar {
+        z-index: 1030; /* Ensure navbar stays on top */
+      }
+      
+      .album img {
+        height: 225px;
+        object-fit: cover;
+      }
+      
+      /* Fix any potential overlay issues */
+      main {
+        position: relative;
+        z-index: 1;
+      }
+      
+      /* Ensure proper spacing */
+      .hero-section {
+        margin-top: 0;
+        padding-top: 3rem;
+      }
+    </style>
   </head>
   <body>
 
